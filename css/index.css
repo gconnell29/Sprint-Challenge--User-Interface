@@ -83,6 +83,7 @@ header {
 
 header * {
     display: inline;
+    color: black;
 }
 
 header nav li {
