@@ -66,9 +66,28 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* END STYLING RESET ---------------------------------------------------------------- */
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+header * {
+    display: inline;
+    color: black;
+}
+
+header nav li {
+    margin: 0 4%;
 }
 
 .top-content {
@@ -77,6 +96,10 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.banner {
+    margin-bottom: 15px;
 }
 
 .top-content .text-container {
@@ -100,6 +123,47 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
 
 .middle-content .boxes .box {
     width: 12.5%;
