@@ -185,6 +185,10 @@ header nav li {
   border-bottom: 1px dashed black;
 }
 
+.banner {
+  margin-bottom: 15px;
+}
+
 .top-content .text-container {
   width: 48%;
   padding: 0 1%;
